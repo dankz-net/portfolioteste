@@ -1,0 +1,23 @@
+body{
+    color: white;
+    background-image: url(https://images4.alphacoders.com/741/thumb-1920-74166.jpg);
+    background-color: #cccccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.txtPrincipal{
+    background: linear-gradient(0.9turn, red, gray);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.btnMidias{
+    display: flex;
+    flex-direction: column;
+    width: 40;
+    height: 40;
+}

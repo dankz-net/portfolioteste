@@ -1,7 +1,6 @@
 body{
     color: white;
-    background-image: url(https://images4.alphacoders.com/741/thumb-1920-74166.jpg);
-    background-color: #cccccc;
+    background-color: #00001f;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -9,15 +8,21 @@ body{
 }
 
 .txtPrincipal{
-    background: linear-gradient(0.9turn, red, gray);
+    background: linear-gradient(0.9turn, #a6a6a6, rgb(254, 83, 36));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
 .btnMidias{
-    display: flex;
-    flex-direction: column;
-    width: 40;
-    height: 40;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #00001f;
+    color: white;
+    padding: 5px;
+    box-shadow: 1px 1px 20px 3px violet;
+    
+
 }

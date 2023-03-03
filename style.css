@@ -8,7 +8,7 @@ body{
 }
 
 .txtPrincipal{
-    background: linear-gradient(0.9turn, #a6a6a6, rgb(254, 83, 36));
+    background: linear-gradient(0.9turn, #fcfcfc, rgb(255, 0, 0));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -17,7 +17,7 @@ body{
 .buttonAll{
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
     background-color: transparent;
     color: white;
@@ -25,9 +25,11 @@ body{
     border-color: white;
     width: 150px;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .buttonAll:hover{
-    background-color: gray
+    box-shadow: 0 0 10px 0px greenyellow;
+    background-color: #00001f;
 }
 

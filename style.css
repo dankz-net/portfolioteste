@@ -33,3 +33,6 @@ body{
     background-color: #00001f;
 }
 
+a:link{
+    text-decoration: none;
+}
